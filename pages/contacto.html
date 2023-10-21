@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mundo Cuy</title>
+    <link rel="stylesheet" href="../estilos/styles.css"> <!-- archivo CSS  -->
+</head>
+<body>
+    <!-- Banner superior -->
+    <header>
+        <h1>Mundo Cuy</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="../pages/galeria.html">Galería de Imágenes</a></li>
+            <li><a href="../pages/videos.html">Videos</a></li>
+            <li><a href="../pages/contacto.html">Contacto</a></li> 
+        </ul>
+    </nav>
+
+    <!-- Contenido de la página de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <!-- Formulario de contacto -->
+        <form action="procesar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="Asunto">Asunto:</label>
+            <br>
+            <input type="text" id="Asunto" name="Asunto" required>
+            <br>
+            
+            <label for="mensaje">Mensaje:</label>
+            <br>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Mundo Cuy</p>
+        <p>Desarrollado por: Diego Martín La Valle</p>
+    </footer>
+</body>
+</html>

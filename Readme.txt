@@ -1,0 +1,25 @@
+Mundocuy v1.0.2
+Cambios Realizados
+En esta versión, se han realizado las siguientes modificaciones:
+
+Reorganización de archivos en carpetas emblemáticas:
+Los archivos del proyecto se han reorganizado en carpetas distintas para mejorar la estructura y la organización del código.
+
+Añadido efecto de carrusel a la página de inicio:
+Se ha implementado un efecto de carrusel en la página de inicio para hacerla más atractiva visualmente. Los usuarios pueden desplazarse por contenido relevante de 
+manera dinámica.
+
+Menú hamburguesa con función de inicio y cierre:
+Se ha añadido un menú hamburguesa que permite a los usuarios acceder a la navegación de la aplicación de manera más eficiente. Este menú es completamente funcional, 
+con opciones de inicio y cierre.
+
+Efecto de hover en las imágenes del carrusel:
+Se han agregado efectos de hover a las imágenes del carrusel para mejorar la experiencia del usuario. Las imágenes reaccionan cuando el cursor se sitúa sobre ellas.
+
+Modificación en la sección de contacto:
+La sección de contacto ha sido modificada para incluir un formulario que permite a los usuarios enviar mensajes. Sin embargo, es importante tener en cuenta que 
+actualmente existe un error al intentar enviar el formulario, ya que no se dispone del servicio de PHP necesario para su funcionamiento.
+
+Diego Martín La Valle 
+B.A. Multiplica 2.0
+21/10/2023

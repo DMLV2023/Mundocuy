@@ -1,0 +1,129 @@
+/* Estilos generales para el sitio */
+body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/955/075/small/green-grass-for-texture-or-background-free-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Estilos para el banner superior */
+header {
+    background-color: #ff6600;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Estilos para los artículos en la página de inicio */
+#inicio article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#inicio h2 {
+    font-size: 1.5em;
+    color: #00ced1;
+}
+
+#inicio p {
+    color: white;
+}
+
+/* Estilos para la página de galería de imágenes */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #333;
+}
+
+#galeria {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#galeria img {
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Estilos para la página de videos */
+#videos {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#videos iframe {
+    max-width: 100%;
+}
+
+/* Estilos para la página de contacto */
+#contacto {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para el texto del desarrollador */
+#desarrollador {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Estilos para el footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilos para centrar las imágenes del carrusel */
+.carousel-inner img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Establecer el tamaño máximo para las imágenes del carrusel */
+.carousel-inner img {
+    max-height: 300px; 
+    width: auto; /* Permite que el ancho se ajuste automáticamente */
+}
+
+/* Aplicar un efecto de escala al hacer hover sobre las imágenes del carrusel */
+.carousel-inner img:hover {
+    transform: scale(1.1); /* Las imágenes se ampliarán un 10% al pasar el cursor */
+}
+
+
+/* Cambiar el color de los enlaces del menú modal */
+.modal-body a {
+    color: #333; 
+    transition: color 0.2s; /* Efecto de transición suave al pasar el ratón */
+}
+
+/* Cambiar el color al pasar el ratón por encima de los enlaces */
+.modal-body a:hover {
+    color: #007bff; /* Cambiar el color al azul cuando el ratón pasa por encima */
+}
