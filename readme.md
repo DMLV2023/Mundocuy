@@ -19,6 +19,14 @@ Al ingresar a [MundoCuy](https://dmlv2023.github.io/Mundocuy/index.html), los us
 - **Contacto:** Encuentra un formulario (actualmente no funcional) para ponerte en contacto con nosotros.
 - **Productos:** Descubre una variedad de productos relacionados con los cobayos. Puedes agregar y quitar productos del carrito gracias a la funcionalidad implementada en JavaScript.
 
+### Versión 1.0.2
+
+- Reorganización de archivos en carpetas emblemáticas para mejorar la estructura y la organización del código.
+- Añadido efecto de carrusel a la página de inicio para hacerla más atractiva visualmente.
+- Menú hamburguesa con función de inicio y cierre.
+- Efecto de hover en las imágenes del carrusel.
+- Modificación en la sección de contacto para incluir un formulario (actualmente no funcional).
+
 ## Repositorio y Despliegue
 
 - Repositorio de GitHub: [MundoCuy en GitHub](https://github.com/DMLV2023/Mundocuy.git)
