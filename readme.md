@@ -36,6 +36,10 @@ Al ingresar a [MundoCuy](https://dmlv2023.github.io/Mundocuy/index.html), los us
 
 - [Proyecto en Google Drive](https://drive.google.com/drive/folders/1_NRzw_J1ft20-Uy_I_KCFrjv7Quswl-X?usp=sharing)
 
+## Autor
+
+-Diego Martín La Valle : d.lavalle.sistemas@gmail.com
+
 ¡Gracias por visitar MundoCuy!
 
 
