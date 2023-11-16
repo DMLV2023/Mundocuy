@@ -127,3 +127,43 @@ footer {
 .modal-body a:hover {
     color: #007bff; /* Cambiar el color al azul cuando el ratón pasa por encima */
 }
+
+/* Estilos personalizados para la página de productos */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header, nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+#carrito {
+    margin-top: 20px;
+}
+
+#carritoIcono {
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+}
