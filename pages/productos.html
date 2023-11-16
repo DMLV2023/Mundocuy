@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Mundo Cuy</title>
+    <link rel="stylesheet" href="../estilos/styles.css"> <!-- Archivo CSS -->
+</head>
+<body>
+    <!-- Banner superior -->
+    <header>
+        <h1>Mundo Cuy</h1>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería de Imágenes</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="productos.html">Productos</a></li>
+        </ul>
+    </nav>
+
+    <!-- Título de la página de productos -->
+    <h2>Productos</h2>
+
+    <!-- Contenido de la página de productos -->
+    <div class="container">
+        <!-- Cartas de productos -->
+        <div class="row">
+            <!-- Carta 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../img/1.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Producto 1</h5>
+                        <p class="card-text">Descripción del producto.</p>
+                        <p class="card-text">Precio: $20.00</p>
+                        <button class="btn btn-primary" onclick="agregarAlCarrito('Producto 1', 20.00)">Agregar al Carrito</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Repite el bloque de código para las otras cartas -->
+            <!-- Carta 2, Carta 3, ... -->
+        </div>
+
+        <!-- Carrito -->
+        <div id="carrito">
+            <h2>
+                Carrito de Compras 
+                <span id="carritoIcono" onclick="mostrarCarrito()">🛒</span>
+            </h2>
+            <ul id="listaCarrito"></ul>
+            <p>Total: $<span id="totalCarrito">0.00</span></p>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap, jQuery y Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Enlace al script personalizado -->
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
